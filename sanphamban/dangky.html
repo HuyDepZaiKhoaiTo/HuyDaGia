@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14-PS23690-Huy-FPT Polytechtic</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main" style="position: relative;">
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="../images/111.png" alt=""> 
+                </div>
+                
+                <div class="timkiem">
+                    <input type="text" placeholder="Tìm kiếm" class="header-search--top">
+                        <i class="fas fa-search btn-search"></i>
+                    </input>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="navbar">
+        <ul class="menu">
+            <li><a href="../index.html">TRANG CHỦ</a></li>
+            <li><a href="../sanphamban/gioithieu.html">GIỚI THIỆU</a></li>
+            <li><a href="../sanphamban/lienhe.html">LIÊN HỆ</a></li>
+            <li><a href="../sanphamban/sanpham.html">SẢN PHẨM</a>
+            </li>
+            <li><a href="../sanphamban/dangky.html" target="../trangchinh">ĐĂNG KÝ</a></li>
+        </ul>
+    </div>
+    <div class="dangky">
+        <form>
+            <div>
+                <label class="form-group">Họ và Tên</label><br>
+                <input type="text">
+            </div>   
+            <br>
+            <fieldset  style="width: 100px;">
+                <label>
+                    Giới tính:
+                </label> <br>
+                    <input type="radio" name="GioiTinh" checked>NAM
+                    <INput type="radio" name="GioiTinh">NỮ
+            </fieldset>
+            <br>
+            <div>
+                <label>Ngày sinh: </label><br>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label>Nghề nghiệp: </label><br>
+                <select name="" id="">
+                    <option>Làm Nông</option>
+                    <option>Buôn Bán</option>
+                    <option>Làm Quán</option>
+                    <option>Làm Giàu</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend><label>Sở thích</label></legend>
+                    <input type="checkbox">Thể Thao
+                    <input type="checkbox">Du Lịch
+                    <input type="checkbox">Âm Nhạc
+                    <input type="checkbox">Ẩm Thực
+                </fieldset>
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Ghi chú</label><br>
+                <textarea name="" id="" cols="100" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <button class="form-button">Đăng ký</button>
+                <button class="form-button">Đăng nhập</button>
+            </div>
+        </form> 
+    </div>
+</body>
+</html>
